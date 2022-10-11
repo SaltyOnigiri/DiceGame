@@ -13,17 +13,14 @@ import java.util.Scanner;
 
       Scanner kybd = new Scanner(System.in);
       
-      //dez r my players
       System.out.println("Enter the name of player 1:");
       s1 = kybd.nextLine();
       
       System.out.println("Enter the name of player 2:");   
       s2 = kybd.nextLine();
       
-      //i gosta makada game
       Game g = new Game(s1, s2);
       
-      //call da playGame method
       g.playGame();
      }
     }
